@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph" app:startDestination="@+id/auth_fragment">
+    <fragment
+        android:id="@+id/auth_fragment"
+        android:name="com.example.flashcards.ui.auth.AuthFragment"
+        android:label="authentication"
+        />
+
+    <fragment
+        android:id="@+id/collections_fragment"
+        android:label="Collections"
+        android:name="com.example.flashcards.ui.collections.CollectionsFragment"
+        />
+
+    <fragment android:id="@+id/flashcards_fragment" android:label="Flash cards"
+        android:name="com.example.flashcards.ui.flashcards.FlashcardsFragment"/>
+</navigation>
